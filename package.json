@@ -1,0 +1,29 @@
+{
+  "name": "mishatube",
+  "version": "1.0.0",
+  "description": "Youtube clone using React.",
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "webpack && webpack-dev-server ./webpack.config.js --no-info --hot --inline --content-base ./dist"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Harish Mathanan <hmathanan@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.0",
+    "babel-preset-es2015": "^6.24.0",
+    "babel-preset-react": "^6.23.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-react": "^6.10.0",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.4.1"
+  },
+  "dependencies": {
+    "youtube-api-search": "0.0.5"
+  }
+}
